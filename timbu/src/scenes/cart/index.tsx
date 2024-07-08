@@ -26,7 +26,7 @@ const Cart = () => {
                 className='  w-[394px] h-[304px] md:w-[380px] md:h-[550px] object-cover bg-white md:bg-pink-20 rounded-lg'
               />
 
-              <div className='absolute bottom-[8rem] md:bottom-4 gap-4 right-2 md:right-[14rem] flex flex-col space-x-2'>
+              <div className='absolute bottom-[9.5rem] md:bottom-4 gap-4 right-2 md:right-[14rem] flex flex-col space-x-2'>
                 <button className='bg-peach-10 pt-2 rounded-full w-10 h-10 flex justify-center'>
                   <img
                     src='/assets/cartIcon.svg'
@@ -73,7 +73,7 @@ const Cart = () => {
                 className=' w-[394px] h-[304px]  md:w-[438px] md:h-[550px] object-cover bg-white md:bg-pink-20 rounded-lg'
               />
 
-              <div className='absolute bottom-[8rem] md:bottom-4 gap-4 right-2 md:right-[13rem] flex flex-col space-x-2'>
+              <div className='absolute bottom-[9rem] md:bottom-4 gap-4 right-2 md:right-[13rem] flex flex-col space-x-2'>
                 <button className='bg-green-40 pt-2 rounded-full w-10 h-10 flex justify-center'>
                   <img
                     src='/assets/cartIcon.svg'
@@ -113,7 +113,7 @@ const Cart = () => {
         </div>
 
         {/* Prices */}
-        <div className='md:pt-32 px-4 md:px-0 py-4 md:py-0 flex flex-col mx-auto my-0 md:mx-[24rem] text-xl md:text-[2rem] text-[#555555] font-semibold gap-3 bg-white w-[394px] rounded-md'>
+        <div className='md:pt-32 px-4 md:px-0 py-4 md:py-0 flex flex-col mx-auto my-0 md:mx-[24rem] text-xl md:text-[2rem] text-[#555555] font-semibold gap-3 bg-white  w-[200px] md:w-[394px] rounded-md'>
           {/* subtotal */}
           <div className='flex flex-row justify-between'>
             <p>Subtotal</p>

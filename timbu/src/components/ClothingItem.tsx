@@ -24,9 +24,9 @@ const ClothingItem = ({
       <img
         src={image}
         alt={description}
-        className={`md:w-full w-[394px] h-[304px] md:h-[500px] ${imageBgColor} object-cover rounded-lg`}
+        className={` esm:w-[280px] esm:ml-12 xs:ml-0  xs:w-[394px] md:w-full h-[304px] md:h-[500px] ${imageBgColor} object-cover rounded-lg`}
       />
-      <div className='absolute  bottom-24  gap-4 right-2 flex flex-col space-x-2'>
+      <div className='absolute esm:right-[3rem] md:right-3 bottom-24  gap-4  flex flex-col space-x-2'>
         <button
           className={` ${iconBgColor} pt-2 rounded-full w-10 h-10 flex justify-center`}
         >
@@ -47,7 +47,7 @@ const ClothingItem = ({
         </button>
       </div>
       <div
-        className={`${textColor} mt-2 font-roboto text-2xl md:text-[2rem] font-semibold  flex flex-col items-start`}
+        className={`${textColor} mt-2 font-roboto text-2xl md:text-[2rem] font-semibold  flex flex-col xs:items-start esm:items-center`}
       >
         <p className=''>{description}</p>
         <p className=''>{price}</p>

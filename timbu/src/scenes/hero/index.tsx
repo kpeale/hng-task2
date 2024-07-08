@@ -49,20 +49,20 @@ const Hero = () => {
         )}
       </div>
       {/* the second div */}
-      <div className='absolute top-24 left-0 w-full h-full flex flex-col justify-center items-center'>
-        <div className='text-center mt-[-8rem] md:mt-0'>
-          <p className='font-roboto font-medium text-2xl md:text-[5rem] '>
+      <div className='absolute top-20 md:top-24 left-0 w-full h-full flex flex-col   justify-center items-center'>
+        <div className='mx-0 md:text-center mt-[-8rem] md:mt-0 esm:max-w-[250px] xs:max-w-[400px] md:max-w-full'>
+          <p className='font-roboto font-medium  xs:text-xl text-2xl md:text-[5rem] '>
             <span className='text-white'>Style </span>
             for All: Discover Your
             <span className='text-white'> Unique </span>
           </p>
-          <p className='font-roboto font-medium text-2xl md:text-[5rem] mt-0 md:mt-[5rem]'>
+          <p className='font-roboto font-medium xs:text-xl text-2xl md:text-[5rem] mt-0 md:mt-[5rem]'>
             Look with
             <span className='text-white'> Our </span>
             Unisex Fashion
           </p>
         </div>
-        <div className='flex justify-center flex-row mt-20 md:mt-16'>
+        <div className='flex justify-center flex-row mt-10 md:mt-16 pb-8 md:pb-0'>
           <button
             className='bg-green-40 text-white-30 md:px-4 px-2 py-1 md:py-4 text-xl md:text-[2rem] font-roboto font-semibold rounded-md'
             id='arrival'

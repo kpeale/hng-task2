@@ -74,7 +74,7 @@ const Men = () => {
         id='men'
       >
         {/* Scroll Section */}
-        <div className=' h-full w-full overflow-x-auto overflow-y-hidden'>
+        <div className=' h-full w-full overflow-x-auto overflow-y-hidden '>
           <div className='mb-12'>
             <Scroll items={firstRowItems} />
           </div>
