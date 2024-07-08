@@ -1,11 +1,17 @@
+import { useNavigate } from 'react-router-dom';
 const Cart = () => {
+  const navigate = useNavigate();
+
+  const handleCheckout = () => {
+    navigate('/checkout');
+  };
   return (
     <>
       <section
-        className='md:mx-[4rem] mt-10 md:mt-[5rem] bg-pink-20 md:bg-white'
+        className='md:mx-[4rem] mt-0 md:mt-[5rem] bg-pink-20 md:bg-white'
         id='cart'
       >
-        <h3 className='text-[#555555] text-2xl md:text-[4rem] md:mb-4 font-semibold'>
+        <h3 className='text-[#555555] text-2xl md:text-[4rem] md:mb-10 font-semibold'>
           Cart
         </h3>
         {/* parent div */}
@@ -133,7 +139,10 @@ const Cart = () => {
           </div>
         </div>
         <div className='flex flex-row justify-center mt-5 '>
-          <button className='bg-green-40 text-[#FCF8F3] rounded-md px-10 py-2'>
+          <button
+            className='bg-green-40 text-[#FCF8F3] rounded-md px-10 py-2  mb-10'
+            onClick={handleCheckout}
+          >
             Checkout
           </button>
         </div>

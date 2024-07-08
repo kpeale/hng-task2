@@ -2,7 +2,7 @@ const Checkout = () => {
   return (
     <>
       <section
-        className='md:mx-[4rem]  mt-8 md:mt-[5rem]'
+        className='md:mx-[4rem]  mt-8 md:mt-[3rem]'
         id='checkout'
       >
         <h3 className='hidden md:flex md:text-[4rem] text-[#555555] font-semibold'>
@@ -118,11 +118,11 @@ const Checkout = () => {
           </div>
         </div>
 
-        <div className='flex flex-col items-center mt-10 md:mt-20 '>
+        <div className='flex flex-col items-center mt-10 md:mt-20  '>
           <h3 className='text-[#555555] text-2xl md:text-[2.5rem] font-semibold'>
             Payment method
           </h3>
-          <div className='flex flex-row justify-center bg-peach-10 mt-5 w-[200px] md:w-[300px] px-4 gap-4 py-2 rounded-md'>
+          <div className='flex flex-row justify-center bg-peach-10 mt-5 w-[200px] md:w-[300px] px-4 gap-4 py-2 rounded-md mb-10'>
             <img
               src='/assets/visa.png'
               alt='visa'

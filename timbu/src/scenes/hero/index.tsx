@@ -1,11 +1,17 @@
 import useMediaQuery from '@/hooks/UseMediaQuery';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
   const isAboveMediumScreens = useMediaQuery('(min-width:1060px)');
+  const navigate = useNavigate();
+
+  const handleCheckout = () => {
+    navigate('/arrival');
+  };
   return (
     <section className='bg-peach-10 relative'>
       <div
-        className={` pt-10 md:pt-28 px-10 w-full relative ${
+        className={` pt-10 md:pt-22 px-10 w-full relative ${
           isAboveMediumScreens ? 'flex flex-row' : 'flex flex-col items-center'
         }`}
       >
@@ -44,7 +50,7 @@ const Hero = () => {
       </div>
       {/* the second div */}
       <div className='absolute top-24 left-0 w-full h-full flex flex-col justify-center items-center'>
-        <div className='text-center mt-[3rem] md:mt-0'>
+        <div className='text-center mt-[-8rem] md:mt-0'>
           <p className='font-roboto font-medium text-2xl md:text-[5rem] '>
             <span className='text-white'>Style </span>
             for All: Discover Your
@@ -56,10 +62,11 @@ const Hero = () => {
             Unisex Fashion
           </p>
         </div>
-        <div className='flex justify-center flex-row mt-20 md:mt-10'>
+        <div className='flex justify-center flex-row mt-20 md:mt-16'>
           <button
             className='bg-green-40 text-white-30 md:px-4 px-2 py-1 md:py-4 text-xl md:text-[2rem] font-roboto font-semibold rounded-md'
             id='arrival'
+            onClick={handleCheckout}
           >
             Explore New Arrival
             <img
