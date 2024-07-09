@@ -85,7 +85,7 @@ const Navbar = ({
                     </Link>
                   </div>
                   <div className='ml-4'>
-                    <Link to='/hero'>
+                    <Link to='/'>
                      <img
                       src='assets/profileIcon.svg'
                       alt='profile'
@@ -151,7 +151,7 @@ const Navbar = ({
               Cart
             </Link>
             <Link
-              to='/hero'
+              to='/'
               className='py-4 w-full border-b border-[#555555]'
             >
               Profile
