@@ -85,10 +85,13 @@ const Navbar = ({
                     </Link>
                   </div>
                   <div className='ml-4'>
-                    <img
+                    <Link to='/hero'>
+                     <img
                       src='assets/profileIcon.svg'
                       alt='profile'
                     />
+                    </Link>
+                   
                   </div>
                 </div>
               </div>
