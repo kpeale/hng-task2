@@ -151,7 +151,7 @@ const Navbar = ({
               Cart
             </Link>
             <Link
-              to='/profile'
+              to='/hero'
               className='py-4 w-full border-b border-[#555555]'
             >
               Profile
