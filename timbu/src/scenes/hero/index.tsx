@@ -9,7 +9,7 @@ const Hero = () => {
     navigate('/arrival');
   };
   return (
-    <section className='bg-peach-10 relative'>
+    <section className='bg-peach-10 relative h-[80vh]'>
       <div
         className={` pt-10 md:pt-22 px-10 w-full relative ${
           isAboveMediumScreens ? 'flex flex-row' : 'flex flex-col items-center'
